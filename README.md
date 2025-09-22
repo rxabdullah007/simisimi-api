@@ -21,11 +21,11 @@ The bot responds to specific trigger names. By default, it uses:
 
 ```javascript
 const matchPrefix = /^(bebe|janu|xan|bbz|mari|arshi)\s+/i;
-
+```
 You can add or remove names as you like.
 The bot will only respond when a message starts with one of these triggers.
 Example:
-Copy code
+
 
 mari hello bot
 The bot will respond because mari is a valid trigger.
